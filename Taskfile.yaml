@@ -44,5 +44,5 @@ tasks:
       - tailwind.css
     cmds:
       - npx tailwindcss build -i tailwind.css -o static/style.css
-      - go run github.com/a-h/templ/cmd/templ@latest generate
+      - go run github.com/a-h/templ/cmd/templ@v0.2.513 generate
       - go generate ./...
